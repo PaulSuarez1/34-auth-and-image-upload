@@ -22,7 +22,8 @@
             android:name=".Post"
             android:label="@string/title_activity_post"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PostAdapter"></activity>
     </application>
 
 </manifest>
