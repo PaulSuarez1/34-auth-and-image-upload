@@ -2,8 +2,14 @@ package com.example.paulsuarez.a34_auth_and_image_upload;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 public class FeedActivity extends AppCompatActivity {
+
+    @BindView(R.id.feed) public RecyclerView recyclerView;
+    public LinearLayoutManager linearLayoutManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
